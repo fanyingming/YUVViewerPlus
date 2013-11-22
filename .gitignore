@@ -1,0 +1,7 @@
+Debug/
+Release/
+YUVviewerPlus/Debug/
+YUVviewerPlus/Release/
+*.ncb
+*.suo
+*.user

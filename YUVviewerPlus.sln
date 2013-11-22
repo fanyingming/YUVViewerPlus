@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YUVviewerPlus", "YUVviewerPlus\YUVviewerPlus.vcproj", "{CEE7BD07-7A55-42B2-AB37-C1315761EC34}"
+	ProjectSection(ProjectDependencies) = postProject
+		{41D692EE-623E-40B5-9C40-BBF2C091FDD0} = {41D692EE-623E-40B5-9C40-BBF2C091FDD0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "YUV2RGBlib", "YUV2RGBlib\YUV2RGBlib.vcproj", "{41D692EE-623E-40B5-9C40-BBF2C091FDD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEE7BD07-7A55-42B2-AB37-C1315761EC34}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CEE7BD07-7A55-42B2-AB37-C1315761EC34}.Debug|Win32.Build.0 = Debug|Win32
+		{CEE7BD07-7A55-42B2-AB37-C1315761EC34}.Release|Win32.ActiveCfg = Release|Win32
+		{CEE7BD07-7A55-42B2-AB37-C1315761EC34}.Release|Win32.Build.0 = Release|Win32
+		{41D692EE-623E-40B5-9C40-BBF2C091FDD0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41D692EE-623E-40B5-9C40-BBF2C091FDD0}.Debug|Win32.Build.0 = Debug|Win32
+		{41D692EE-623E-40B5-9C40-BBF2C091FDD0}.Release|Win32.ActiveCfg = Release|Win32
+		{41D692EE-623E-40B5-9C40-BBF2C091FDD0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
